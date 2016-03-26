@@ -1,6 +1,6 @@
 
 def get_word_list_from_file():
-    input_file = open('E:\\tmp\\test\\anagram\\sample.txt', 'r')
+    input_file = open('sample.txt', 'r')
     word_list = input_file.read().splitlines()
     input_file.close()
     return word_list
